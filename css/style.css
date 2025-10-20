@@ -1,0 +1,81 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+}
+
+.item {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+   width: 120px; height: max-content;
+   font-family: "Kanit", sans-serif;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+}
+
+.product-container {
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+    justify-content: center;
+    width: max-content; height: max-content;
+    font-family: "Kanit", sans-serif;
+}
+
+.product-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    width: 250px; height: max-content;
+    font-family: "Kanit", sans-serif;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.price {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+}
+
+.price .new {
+    color: #D51E0B;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price .old {
+    color: gray;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.discount {
+    text-align: left;
+    background-color: hsl(294, 82%, 18%);
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    top: 10px;
+    left: 0px;
+}
